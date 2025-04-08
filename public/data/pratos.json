@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "categoria": "Entradas",
+      "nome": "Bruschetta",
+      "descricao": "Pão italiano com tomate fresco e manjericão",
+      "preco": 25.90,
+      "ingredientes": ["Pão italiano", "Tomate", "Azeite", "Manjericão"],
+      "imagem": "/imagens/bruschetta.jpg",
+      "destaque": true
+    }
+  ]
