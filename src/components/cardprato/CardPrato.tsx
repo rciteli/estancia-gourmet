@@ -1,29 +1,29 @@
 import Link from 'next/link';
-import { Prato } from '@/types/types';
+
+interface Prato {
+  id: number;
+  nome: string;
+  descricao: string;
+  imagem: string;
+  categoria: string;
+}
 
 export default function CardPrato({ prato }: { prato: Prato }) {
   return (
     <Link 
-      href={`/pratos/${prato.id}`}
-      className="block transform transition duration-300 hover:scale-105"
+      href={`/pratos/${prato.categoria}/${prato.id}`}
+      className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
     >
-      <div className="bg-black rounded-xl shadow-lg overflow-hidden h-full flex flex-col">
-        <div className="relative h-48">
-          <img
-            src={prato.imagem}
-            alt={prato.nome}
-            className="w-full h-full object-cover"
-          />
-          <span className="absolute top-2 right-2 bg-accent text-text px-3 py-1 rounded-full text-sm">
-            {prato.categoria}
-          </span>
-        </div>
-        
-        <div className="p-4 flex flex-col flex-grow">
-          <h3 className="text-xl font-bold text-dark mb-2">{prato.nome}</h3>
-          <p className="text-gray-600 text-sm mb-4 flex-grow">{prato.descricao}</p>
-          <p className="text-primary font-bold text-lg">R$ {prato.preco.toFixed(2)}</p>
-        </div>
+      <div className="relative h-48">
+        <img 
+          src={prato.imagem}
+          alt={prato.nome}
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="p-4">
+        <h3 className="text-xl font-bold text-gray-800 mb-2">{prato.nome}</h3>
+        <p className="text-gray-600">{prato.descricao}</p>
       </div>
     </Link>
   );

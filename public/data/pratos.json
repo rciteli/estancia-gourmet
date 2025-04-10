@@ -1,20 +1,30 @@
 [
-  {
-    "id": 1,
-    "categoria": "Entradas",
-    "nome": "Carpaccio de Beterraba",
-    "descricao": "Finas fatias de beterraba com queijo de cabra e nozes",
-    "preco": 32.90,
-    "ingredientes": ["Beterraba", "Queijo de cabra", "Nozes", "Mel", "Rúcula"],
-    "imagem": "/carpaccio-beterraba.png"
-  },
-  {
-    "id": 2,
-    "categoria": "Pratos Principais",
-    "nome": "Risoto de Cogumelos",
-    "descricao": "Risoto cremoso com mix de cogumelos frescos",
-    "preco": 68.50,
-    "ingredientes": ["Arroz arbóreo", "Cogumelos shiitake", "Champignon", "Vinho branco", "Queijo parmesão"],
-    "imagem": "/risotofunghi.jpeg"
-  }
-]
+    {
+      "id": 1,
+      "categoria": "Entradas",
+      "nome": "Bruschetta Italiana",
+      "ingredientes": [
+        "Pão italiano",
+        "Tomate fresco",
+        "Manjericão",
+        "Azeite de oliva"
+      ],
+      "descricao": "Clássico antipasto italiano com ingredientes frescos",
+      "imagem": "/imagens/entrada1.jpg",
+      "preparo": "15 minutos"
+    },
+    {
+      "id": 2,
+      "categoria": "Principais",
+      "nome": "Risoto de Funghi",
+      "ingredientes": [
+        "Arroz arbóreo",
+        "Funghi secchi",
+        "Caldo de legumes",
+        "Queijo parmesão"
+      ],
+      "descricao": "Risoto cremoso com cogumelos selvagens",
+      "imagem": "/imagens/principal1.jpg",
+      "preparo": "40 minutos"
+    }
+  ]
