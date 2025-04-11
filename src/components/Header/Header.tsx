@@ -1,5 +1,7 @@
 // components/Header.tsx
 import Image from 'next/image';
+import Navbar from '@/components/Navbar/Navbar';
+
 
 export default function Header() {
     return (
@@ -32,16 +34,7 @@ export default function Header() {
                     </div>
                 </div>
 
-                <nav className="hidden md:flex gap-8">
-                    {['HOME', 'CHEFS', 'PRATOS'].map((item) => (
-                        <button
-                            key={item}
-                            className="text-white hover:text-amber-300 transition-colors"
-                        >
-                            {item}
-                        </button>
-                    ))}
-                </nav>
+                <Navbar />
             </div>
         </header>
     );

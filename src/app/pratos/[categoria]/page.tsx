@@ -1,14 +1,14 @@
-// app/pratos/[categoria]/page.tsx
 'use client';
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import CardPrato from '@/components/CardPrato/CardPrato';
+import Link from 'next/link';
 import { Prato } from '@/types/types';
 
-export default function ListaPratos() {
+export default function ListaEntradas() {
   const params = useParams<{ categoria: string }>();
   const [pratos, setPratos] = useState<Prato[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (!params?.categoria) return;
@@ -16,24 +16,50 @@ export default function ListaPratos() {
     fetch('/data/pratos.json')
       .then(res => res.json())
       .then((data: Prato[]) => {
-        const filtered = data.filter(prato => 
-          prato.categoria === params.categoria
+        const filtrados = data.filter(prato => 
+          prato.categoria.toLowerCase() === params.categoria.toLowerCase()
         );
-        setPratos(filtered);
+        setPratos(filtrados);
+        setLoading(false);
       });
   }, [params?.categoria]);
 
-  if (!params?.categoria) return <div>Carregando...</div>;
+  if (!params?.categoria || loading) {
+    return (
+      <div className="container mx-auto p-4 text-center">
+        <div className="animate-pulse">
+          Carregando...
+        </div>
+      </div>
+    );
+  }
+
+  const categoriaFormatada = params.categoria.charAt(0).toUpperCase() + 
+                           params.categoria.slice(1).toLowerCase();
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold text-emerald-700 mb-8">
-        {params.categoria}
+        {categoriaFormatada}
       </h1>
       
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {pratos.map(prato => (
-          <CardPrato key={prato.id} prato={prato} />
+          <Link 
+            key={prato.id} 
+            href={`/pratos/${params.categoria}/${prato.id}`}
+            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+          >
+            <img 
+              src={prato.imagem} 
+              alt={prato.nome} 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h2 className="text-xl font-semibold text-gray-800">{prato.nome}</h2>
+              <p className="text-gray-600 mt-2">{prato.descricao}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
