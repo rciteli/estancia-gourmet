@@ -26,7 +26,7 @@ export default function UnitsSection() {
             <div className="text-gray-600">
               <p>São Paulo</p>
               <p>Alameda Iraé, 398, Moema</p>
-              <p>Alameda Iraé, 388, Moema</p>
+              <p>Alameda Jaú, 95, Jardim Paulista</p>
               <p className="mt-4">(11) 2893–4963 – Telefone e WhatsApp</p>
             </div>
           </div>
