@@ -39,7 +39,7 @@
             "Azeite trufado"
         ],
         "preparo": "Fatiar o filé e montar o prato",
-        "imagem": "/imagens/entradas/carpaccio.jpg"
+        "imagem": "/imagens/carpaccio-beterraba.png"
     },
     {
         "id": 4,
@@ -51,7 +51,7 @@
             "Leite de coco",
             "Cupuaçu",
             "Gengibre",
-            "Wasabi verde"
+            "Wasabi verdes"
         ],
         "preparo": "Cortar o salmão em cubos, marinar por 15min e servir com espuma de cupuaçu",
         "imagem": "/imagens/entradas/tartare-salmao.jpg"
@@ -295,5 +295,140 @@
         ],
         "preparo": "Cozimento em banho-maria e moldagem manual",
         "imagem": "/imagens/sobremesas/brigadeiro-ouro.jpg"
-    }
+    },{
+          "id": 38,
+          "categoria": "vinhos",
+          "nome": "Vinho Tinto Cabernet",
+          "descricao": "Vinho encorpado com notas de frutas vermelhas",
+          "ingredientes": ["Uvas Cabernet Sauvignon", "Fermento", "Carvalho"],
+          "preparo": "Fermentação em barris de carvalho",
+          "imagem": "/imagens/bebidas/vinhos/vinho_tinto_cabernet.jpg"
+        },
+        {
+          "id": 39,
+          "categoria": "vinhos",
+          "nome": "Vinho Branco Chardonnay",
+          "descricao": "Leve e frutado, ideal para pratos leves",
+          "ingredientes": ["Uvas Chardonnay", "Fermento", "Madeira"],
+          "preparo": "Fermentação a baixa temperatura",
+          "imagem": "/imagens/bebidas/vinhos/vinho_branco_chardonnay.jpg"
+        },
+        {
+          "id": 40,
+          "categoria": "vinhos",
+          "nome": "Rosé Provence",
+          "descricao": "Vinho rosé seco, com aroma floral",
+          "ingredientes": ["Uvas Rosé", "Fermento"],
+          "preparo": "Fermentação curta, sem contato com cascas",
+          "imagem": "/imagens/bebidas/vinhos/rose_provence.jpg"
+        },
+        {
+          "id": 41,
+          "categoria": "vinhos",
+          "nome": "Espumante Brut",
+          "descricao": "Refrescante e elegante, ideal para celebrações",
+          "ingredientes": ["Uvas brancas", "Fermento", "Gás natural"],
+          "preparo": "Método tradicional de espumantização",
+          "imagem": "/imagens/bebidas/vinhos/espumante_brut.jpg"
+        },
+        {
+          "id": 42,
+          "categoria": "vinhos",
+          "nome": "Vinho do Porto",
+          "descricao": "Doce e encorpado, perfeito para sobremesas",
+          "ingredientes": ["Uvas Portuguesas", "Aguardente vínica"],
+          "preparo": "Interrupção da fermentação com aguardente",
+          "imagem": "/imagens/bebidas/vinhos/vinho_do_porto.jpg"
+        },
+        {
+          "id": 43,
+          "categoria": "refrigerantes",
+          "nome": "Cola Clássica",
+          "descricao": "Refrigerante de cola com sabor intenso",
+          "ingredientes": ["Água gaseificada", "Açúcar", "Cafeína", "Aromatizantes"],
+          "preparo": "Mistura e gaseificação",
+          "imagem": "/imagens/bebidas/refrigerantes/cola_classica.jpg"
+        },
+        {
+          "id": 44,
+          "categoria": "refrigerantes",
+          "nome": "Guaraná Natural",
+          "descricao": "Refrigerante brasileiro com extrato natural de guaraná",
+          "ingredientes": ["Água gaseificada", "Açúcar", "Extrato de guaraná"],
+          "preparo": "Mistura com extrato natural",
+          "imagem": "/imagens/bebidas/refrigerantes/guarana_natural.jpg"
+        },
+        {
+          "id": 45,
+          "categoria": "refrigerantes",
+          "nome": "Laranja Citrus",
+          "descricao": "Refrigerante de laranja com sabor cítrico",
+          "ingredientes": ["Água gaseificada", "Açúcar", "Suco de laranja", "Aromas"],
+          "preparo": "Mistura e adição de gás",
+          "imagem": "/imagens/bebidas/refrigerantes/laranja_citrus.jpg"
+        },
+        {
+          "id": 46,
+          "categoria": "refrigerantes",
+          "nome": "Limão Ice",
+          "descricao": "Refrigerante de limão com toque refrescante",
+          "ingredientes": ["Água gaseificada", "Açúcar", "Suco de limão", "Aromas"],
+          "preparo": "Mistura fria com carbonatação",
+          "imagem": "/imagens/bebidas/refrigerantes/limao_ice.jpg"
+        },
+        {
+          "id": 47,
+          "categoria": "refrigerantes",
+          "nome": "Tônica Herbal",
+          "descricao": "Refrigerante amargo com notas herbais",
+          "ingredientes": ["Água gaseificada", "Açúcar", "Extratos botânicos"],
+          "preparo": "Infusão de ervas e gaseificação",
+          "imagem": "/imagens/bebidas/refrigerantes/tonica_herbal.jpg"
+        },
+        {
+          "id": 48,
+          "categoria": "sucos",
+          "nome": "Suco de Laranja Natural",
+          "descricao": "100% suco de laranja, sem conservantes",
+          "ingredientes": ["Laranja"],
+          "preparo": "Extração a frio",
+          "imagem": "/imagens/bebidas/sucos/suco_laranja.jpg"
+        },
+        {
+          "id": 49,
+          "categoria": "sucos",
+          "nome": "Suco de Uva Integral",
+          "descricao": "Suco puro de uva sem adição de açúcar",
+          "ingredientes": ["Uva roxa"],
+          "preparo": "Prensagem e pasteurização",
+          "imagem": "/imagens/bebidas/sucos/suco_uva.jpg"
+        },
+        {
+          "id": 50,
+          "categoria": "sucos",
+          "nome": "Suco de Abacaxi com Hortelã",
+          "descricao": "Refrescante combinação tropical",
+          "ingredientes": ["Abacaxi", "Hortelã", "Água"],
+          "preparo": "Bater os ingredientes e coar",
+          "imagem": "/imagens/bebidas/sucos/suco_abacaxi_hortela.jpg"
+        },
+        {
+          "id": 51,
+          "categoria": "sucos",
+          "nome": "Suco Detox Verde",
+          "descricao": "Suco saudável com couve, limão e maçã",
+          "ingredientes": ["Couve", "Limão", "Maçã", "Gengibre", "Água"],
+          "preparo": "Bater e coar",
+          "imagem": "/imagens/bebidas/sucos/suco_detox_verde.jpg"
+        },
+        {
+          "id": 52,
+          "categoria": "sucos",
+          "nome": "Suco de Maracujá",
+          "descricao": "Sabor marcante e calmante",
+          "ingredientes": ["Maracujá", "Água", "Açúcar"],
+          "preparo": "Bater a polpa com água e adoçar",
+          "imagem": "/imagens/bebidas/sucos/suco_maracuja.jpg"
+        }
+            
 ]

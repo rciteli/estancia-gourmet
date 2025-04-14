@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import BackToTopButton from "@/components/BackToTopButton/BackToTopButton";
 
 export const metadata: Metadata = {
   title: "Estância Gourmet",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body>
         {children}
+        <BackToTopButton/>
       </body>
     </html>
   );
