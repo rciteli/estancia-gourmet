@@ -234,7 +234,7 @@
             "Cacau"
         ],
         "preparo": "Montar camadas alternadas com creme de maracujá e biscoitos umedecidos",
-        "imagem": "/imagens/sobremesas/tiramisu-maracuja.jpg"
+        "imagem": "/tiramissu_maracuja.jpg"
     },
     {
         "id": 28,
@@ -249,7 +249,7 @@
             "Açúcar"
         ],
         "preparo": "Assar a 200°C por 12min e servir com sorvete de baunilha",
-        "imagem": "/imagens/sobremesas/petit-cupuacu.jpg"
+        "imagem": "/petit_gateau.jpg"
     },
     {
         "id": 35,
@@ -264,7 +264,7 @@
             "Amaretto di Saronno"
         ],
         "preparo": "Montagem em camadas com 24h de repouso",
-        "imagem": "/imagens/sobremesas/tiramisu.jpg"
+        "imagem": "/tiramisu.jpg"
     },
     {
         "id": 36,
@@ -279,7 +279,7 @@
             "Sorvete de creme"
         ],
         "preparo": "Caramelização perfeita em panela de cobre",
-        "imagem": "/imagens/sobremesas/tarte-tatin.jpg"
+        "imagem": "/tarte_tartin.jpg"
     },
     {
         "id": 37,
@@ -294,7 +294,7 @@
             "Nibs de cacau"
         ],
         "preparo": "Cozimento em banho-maria e moldagem manual",
-        "imagem": "/imagens/sobremesas/brigadeiro-ouro.jpg"
+        "imagem": "/brigadeiro_ouro.jpeg"
     },{
           "id": 38,
           "categoria": "vinhos",
@@ -302,7 +302,7 @@
           "descricao": "Vinho encorpado com notas de frutas vermelhas",
           "ingredientes": ["Uvas Cabernet Sauvignon", "Fermento", "Carvalho"],
           "preparo": "Fermentação em barris de carvalho",
-          "imagem": "/imagens/bebidas/vinhos/vinho_tinto_cabernet.jpg"
+          "imagem": "/vinho_cabernet.jpg"
         },
         {
           "id": 39,
