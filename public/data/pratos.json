@@ -11,7 +11,7 @@
             "Azeite"
         ],
         "preparo": "Assar o pão e adicionar os ingredientes",
-        "imagem": "/imagens/entradas/bruschetta.jpg"
+        "imagem": "/bruschetta_italiana.jpeg"
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@
             "Azeite de dendê"
         ],
         "preparo": "Torrar o pão, montar camadas de abacate e queijo, finalizar com geléia e azeite",
-        "imagem": "/imagens/entradas/bruschetta-tropical.jpg"
+        "imagem": "/bruschetta_tropical.jpg"
     },
     {
         "id": 3,
@@ -39,7 +39,7 @@
             "Azeite trufado"
         ],
         "preparo": "Fatiar o filé e montar o prato",
-        "imagem": "/imagens/carpaccio-beterraba.png"
+        "imagem": "/carpaccio_file.png"
     },
     {
         "id": 4,
@@ -54,12 +54,12 @@
             "Wasabi verd"
         ],
         "preparo": "Cortar o salmão em cubos, marinar por 15min e servir com espuma de cupuaçu",
-        "imagem": "/imagens/entradas/tartare-salmao.jpg"
+        "imagem": "/tartare_salmao.jpeg"
     },
     {
         "id": 5,
         "categoria": "entradas",
-        "nome": "Antipasto alla Nonna",
+        "nome": "Antipasto Della Nonna",
         "descricao": "Seleção italiana premium: presunto de Parma, burrata cremosa e tomates heirloom",
         "ingredientes": [
             "Presunto Parma DOP",
@@ -69,7 +69,7 @@
             "Azeite trufado"
         ],
         "preparo": "Dispor em táboa de madeira e regar com azeite trufado",
-        "imagem": "/imagens/entradas/antipasto.jpg"
+        "imagem": "/antipasto.jpeg"
     },
     {
         "id": 6,
@@ -84,7 +84,7 @@
             "Pão rústico"
         ],
         "preparo": "Caramelizar cebolas por 2h, finalizar com queijo gratinado",
-        "imagem": "/imagens/entradas/soupe-oignon.jpg"
+        "imagem": "/soupe.jpeg"
     },
     {
         "id": 7,
@@ -99,7 +99,7 @@
             "Flor de sal"
         ],
         "preparo": "Fritura em dupla temperatura com acabamento no forno",
-        "imagem": "/imagens/entradas/bolinho-bacalhau.jpg"
+        "imagem": "/bolinho.jpg"
     },
     {
         "id": 8,
@@ -111,14 +111,14 @@
             "Caldo de legumes",
             "Queijo parmesão"
         ],
-        "descricao": "Risoto cremoso com cogumelos selvagens",
+        "descricao": "Risoto cremoso com cogumelos selvagens - Chef Henri",
         "preparo": "Adicionar o Funghi ao risoto cremoso",
-        "imagem": "/imagens/principal1.jpg"
+        "imagem": "/risotofunghi.jpeg"
     },
     {
         "id": 9,
         "categoria": "principais",
-        "nome": "Magret ao Tucupi de Champagne - Chef Henri",
+        "nome": "Magret ao Tucupi de Champagne",
         "descricao": "Pato grelhado com redução amazônica e névoa cítrica",
         "ingredientes": [
             "Peito de pato",
@@ -128,7 +128,7 @@
             "Limão cravo"
         ],
         "preparo": "Searar o pato, reduzir tucupi com champagne e finalizar com névoa de limão",
-        "imagem": "/imagens/principais/magret-tucupi.jpg"
+        "imagem": "/magret.jpg"
     },
     {
         "id": 10,
@@ -143,7 +143,7 @@
             "Parmesão"
         ],
         "preparo": "Cozinhar risoto na tinta, cobrir com máscara de parmesão e finalizar com brie",
-        "imagem": "/imagens/principais/risoto-nero.jpg"
+        "imagem": "/risotto.jpeg"
     },
     {
         "id": 11,
@@ -158,22 +158,22 @@
             "Especiarias"
         ],
         "preparo": "Grelhar a carne, reduzir açaí com vinho e servir com purê cremoso",
-        "imagem": "/imagens/principais/file-açai.jpg"
+        "imagem": "/file_açai.jpg"
     },
     {
         "id": 12,
         "categoria": "principais",
-        "nome": "Pulmão de Mar - Chef Pablo",
-        "descricao": "Espuma de ostra, névoa de algas e joia de manga-pimenta",
+        "nome": "Pulmão de Leite - Chef Pablo",
+        "descricao": "Pulmão bovino cozido lentamente no leite, temperado com alho, cebola e especiarias",
         "ingredientes": [
-            "Ostras frescas",
-            "Algas marinhas",
-            "Manga-pimenta",
-            "Água marinada",
-            "Geléia de maracujá do mar"
+            "Pulmão bovino limpo",
+            "1L de leite",
+            "2 folhas de louro",
+            "Sal a gosto",
+            "Pimenta-do-reino a gosto"
         ],
         "preparo": "Preparar espuma com ostras, criar névoa com algas e montar joia de manga",
-        "imagem": "/imagens/principais/pulmao-mar.jpg"
+        "imagem": "/pulmao.jpg"
     },
     {
         "id": 13,
@@ -188,7 +188,7 @@
             "Limão siciliano"
         ],
         "preparo": "Brasear por 4h e servir com risoto cremoso",
-        "imagem": "/imagens/principais/ossobuco.jpg",
+        "imagem": "/ossobuco.jpg",
         "origem": "italiana"
     },
     {
@@ -204,7 +204,7 @@
             "Cebola pérola"
         ],
         "preparo": "Cozimento lento em cocotte por 6h",
-        "imagem": "/imagens/principais/boeuf-bourguignon.jpg"
+        "imagem": "/boeuf.jpg"
     },
     {
         "id": 15,
@@ -219,7 +219,7 @@
             "Coentro microverde"
         ],
         "preparo": "Cozimento em panela de barro com técnica de vapor selado",
-        "imagem": "/imagens/principais/moqueca.jpg"
+        "imagem": "/moqueca.jpg"
     },
     {
         "id": 27,
