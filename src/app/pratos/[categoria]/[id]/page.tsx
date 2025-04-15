@@ -6,11 +6,13 @@ import { useParams } from 'next/navigation';
 import { Prato } from '@/types/types';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
+import BackButton from '@/components/BackButton/BackButton';
 
 export default function DetalhePrato() {
   const { categoria, id } = useParams<{ categoria: string; id: string }>();
   const [prato, setPrato] = useState<Prato | null>(null);
 
+  // Busca o prato pelo ID
   useEffect(() => {
     if (!categoria || !id) return;
 
@@ -36,6 +38,7 @@ export default function DetalhePrato() {
     <div>
       <Header />
       <div className="min-h-screen bg-gray-50 py-10 px-4 manjari">
+        <BackButton />  
         <div className="max-w-3xl h-auto mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
           <img
             src={prato.imagem}

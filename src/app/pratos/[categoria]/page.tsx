@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Prato } from '@/types/types';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
+import BackButton from '@/components/BackButton/BackButton';
 
 export default function ListaEntradas() {
   const params = useParams<{ categoria: string }>();
@@ -42,7 +43,8 @@ export default function ListaEntradas() {
   return (
     <div>
       <Header />
-    <div className="container mx-auto p-4 manjari">
+    <div className="container mx-auto p-4 manjari text-center">
+    <BackButton />
       <h1 className="text-3xl font-bold text-emerald-700 mb-8">
         {categoriaFormatada}
       </h1>

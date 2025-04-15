@@ -35,7 +35,7 @@ export default function BackToTopButton() {
       className={`fixed bottom-4 right-4 p-3 bg-blue-600 text-white rounded-full shadow-lg ${visible ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}
       style={{ display: visible ? 'inline-block' : 'none' }}  
     >
-      Voltar Ao topo
+      Voltar ao Topo
     </button>
    </div>
    
