@@ -1,4 +1,5 @@
 // components/ThemeProvider.tsx
+// Está funcionando utilizando o forçar tema escuro - não consegui ativar automaticamente no meu navegador
 'use client';
 
 import { createContext, useContext, useState } from 'react';

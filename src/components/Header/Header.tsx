@@ -22,12 +22,12 @@ export default function Header() {
             <div className="container relative mx-auto px-4 py-4 flex items-center justify-between z-10">
                 <div className="flex items-center gap-2">
                     {/* Logo */}
-                    <div className="w-48 md:w-56"> {/* Ajuste o tamanho conforme necessário */}
+                    <div className="w-48 md:w-56">
                         <Image
                             src="/logo_estancia.png"
                             alt="Estância Gourmet"
-                            width={160}  // Largura original da imagem
-                            height={160}   // Altura original da imagem
+                            width={160}
+                            height={160}
                             className="object-contain"
                             priority
                         />

@@ -341,9 +341,8 @@
           "nome": "Vinho Tinto Cabernet",
           "descricao": "Vinho encorpado com notas de frutas vermelhas",
           "ingredientes": [
-            "1000g de Uvas Cabernet Sauvignon 🍇",
-            "10g de Fermento 🍞",
-            "100g de Carvalho 🌳"
+            "Cabernet Sauvignon 🍇",
+            "Envelhecido em barris de carvalho 🌳"
           ],
           "preparo": [
             "As uvas Cabernet Sauvignon são colhidas e fermentadas com o fermento adequado. O vinho é então envelhecido em barris de carvalho, o que dá um toque único de madeira e complexidade ao sabor, enquanto as notas de frutas vermelhas são intensificadas durante o processo."
@@ -356,9 +355,7 @@
           "nome": "Vinho Branco Chardonnay",
           "descricao": "Leve e frutado, ideal para pratos leves",
           "ingredientes": [
-            "1000g de Uvas Chardonnay 🍇",
-            "10g de Fermento 🍞",
-            "100g de Madeira 🍂"
+            "Chardonnay 🍇"
           ],
           "preparo": [
             "As uvas Chardonnay são colhidas e fermentadas com o fermento adequado a uma baixa temperatura, o que ajuda a preservar os sabores frutados e frescos. O vinho é então maturado para equilibrar sua acidez e suavidade, tornando-o ideal para acompanhar pratos leves."
@@ -371,8 +368,8 @@
           "nome": "Rosé Provence",
           "descricao": "Vinho rosé seco, com aroma floral",
           "ingredientes": [
-            "1000g de Uvas Rosé 🍇",
-            "10g de Fermento 🍞"
+            "Merlot 🍇",
+            "Riesling 🍇"
           ],
           "preparo": [
             "As uvas Rosé são colhidas e fermentadas com o fermento adequado em um processo de fermentação curta, sem contato com as cascas, para preservar a delicadeza e as notas florais do vinho. Isso resulta em um vinho rosé seco e aromático, perfeito para momentos refrescantes."
@@ -385,9 +382,7 @@
           "nome": "Espumante Brut",
           "descricao": "Refrescante e elegante, ideal para celebrações",
           "ingredientes": [
-            "1000g de Uvas brancas 🍇",
-            "5g de Fermento 🍞",
-            "Gás natural 💨"
+            "Cabernet Blanc 🍇"
           ],
           "preparo": [
             "O espumante é produzido pelo método tradicional de espumantização, onde a fermentação secundária ocorre nas garrafas, criando as borbulhas naturais. Esse processo confere ao espumante seu caráter refrescante e elegante, perfeito para brindar ocasiões especiais."
@@ -400,8 +395,8 @@
           "nome": "Vinho do Porto",
           "descricao": "Doce e encorpado, perfeito para sobremesas",
           "ingredientes": [
-            "1000g de Uvas Portuguesas 🍇",
-            "100ml de Aguardente vínica 🍷"
+            "Uvas Portuguesas 🍇",
+            "Aguardente vínica 🍷"
           ],
           "preparo": [
             "Durante o processo de fermentação, a fermentação é interrompida pela adição de aguardente vínica, o que aumenta o teor alcoólico do vinho e preserva a doçura das uvas. Esse processo confere ao Vinho do Porto seu caráter doce e encorpado, tornando-o ideal para acompanhar sobremesas."

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+/*Estamos importando as fontes utilizando o globals */
 
 :root {
   --background: #ffffff;
