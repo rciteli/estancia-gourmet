@@ -1,5 +1,4 @@
 // app/pratos/page.tsx
-import UnitsSection from '@/components/UnitsSection/UnitsSection';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import CategoryCard from '@/components/CategoryCard/CategoryCard';
@@ -12,9 +11,9 @@ export default function PratosPage() {
     ];
 
     const categoriasBebidas = [
-        { title: 'Vinhos', image: '/imagem_vinhos.png', href: '/bebidas/vinhos' },
-        { title: 'Refrigerantes', image: 'imagem_refris.png', href: '/bebidas/refrigerantes' },
-        { title: 'Sucos', image: 'imagem_sucos.png', href: '/bebidas/sucos' },
+        { title: 'Vinhos', image: '/imagem_vinhos.png', href: '/pratos/vinhos' },
+        { title: 'Refrigerantes', image: 'imagem_refris.png', href: '/pratos/refrigerantes' },
+        { title: 'Sucos', image: 'imagem_sucos.png', href: '/pratos/sucos' },
     ];
 
     return (
@@ -49,7 +48,6 @@ export default function PratosPage() {
             ))}
           </div>
         </section>
-        <UnitsSection />
         <Footer />
       </div>
     );

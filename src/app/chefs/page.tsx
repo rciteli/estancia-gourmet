@@ -2,7 +2,6 @@
 import ChefCard from '@/components/ChefCard/ChefCard';
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
-import UnitsSection from '@/components/UnitsSection/UnitsSection';
 
 const chefs = [
     {
@@ -51,7 +50,6 @@ export default function ChefsPage() {
                     ))}
                 </div>
             </main>
-            <UnitsSection />
             <Footer />
         </div>
     );

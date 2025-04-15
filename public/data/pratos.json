@@ -302,7 +302,7 @@
           "descricao": "Vinho encorpado com notas de frutas vermelhas",
           "ingredientes": ["Uvas Cabernet Sauvignon", "Fermento", "Carvalho"],
           "preparo": "Fermentação em barris de carvalho",
-          "imagem": "/vinho_cabernet.jpg"
+          "imagem": "/vinho_carbenet.jpg"
         },
         {
           "id": 39,
@@ -311,7 +311,7 @@
           "descricao": "Leve e frutado, ideal para pratos leves",
           "ingredientes": ["Uvas Chardonnay", "Fermento", "Madeira"],
           "preparo": "Fermentação a baixa temperatura",
-          "imagem": "/imagens/bebidas/vinhos/vinho_branco_chardonnay.jpg"
+          "imagem": "/vinhos.png"
         },
         {
           "id": 40,
@@ -320,7 +320,7 @@
           "descricao": "Vinho rosé seco, com aroma floral",
           "ingredientes": ["Uvas Rosé", "Fermento"],
           "preparo": "Fermentação curta, sem contato com cascas",
-          "imagem": "/imagens/bebidas/vinhos/rose_provence.jpg"
+          "imagem": "/vinhos.png"
         },
         {
           "id": 41,
@@ -329,7 +329,7 @@
           "descricao": "Refrescante e elegante, ideal para celebrações",
           "ingredientes": ["Uvas brancas", "Fermento", "Gás natural"],
           "preparo": "Método tradicional de espumantização",
-          "imagem": "/imagens/bebidas/vinhos/espumante_brut.jpg"
+          "imagem": "/vinhos.png"
         },
         {
           "id": 42,
@@ -338,7 +338,7 @@
           "descricao": "Doce e encorpado, perfeito para sobremesas",
           "ingredientes": ["Uvas Portuguesas", "Aguardente vínica"],
           "preparo": "Interrupção da fermentação com aguardente",
-          "imagem": "/imagens/bebidas/vinhos/vinho_do_porto.jpg"
+          "imagem": "/vinhos.png"
         },
         {
           "id": 43,
@@ -347,7 +347,7 @@
           "descricao": "Refrigerante de cola com sabor intenso",
           "ingredientes": ["Água gaseificada", "Açúcar", "Cafeína", "Aromatizantes"],
           "preparo": "Mistura e gaseificação",
-          "imagem": "/imagens/bebidas/refrigerantes/cola_classica.jpg"
+          "imagem": "/imagem_refris.png"
         },
         {
           "id": 44,
@@ -356,7 +356,7 @@
           "descricao": "Refrigerante brasileiro com extrato natural de guaraná",
           "ingredientes": ["Água gaseificada", "Açúcar", "Extrato de guaraná"],
           "preparo": "Mistura com extrato natural",
-          "imagem": "/imagens/bebidas/refrigerantes/guarana_natural.jpg"
+          "imagem": "/imagem_refris.png"
         },
         {
           "id": 45,
@@ -365,7 +365,7 @@
           "descricao": "Refrigerante de laranja com sabor cítrico",
           "ingredientes": ["Água gaseificada", "Açúcar", "Suco de laranja", "Aromas"],
           "preparo": "Mistura e adição de gás",
-          "imagem": "/imagens/bebidas/refrigerantes/laranja_citrus.jpg"
+          "imagem": "/imagem_refris.png"
         },
         {
           "id": 46,
@@ -374,7 +374,7 @@
           "descricao": "Refrigerante de limão com toque refrescante",
           "ingredientes": ["Água gaseificada", "Açúcar", "Suco de limão", "Aromas"],
           "preparo": "Mistura fria com carbonatação",
-          "imagem": "/imagens/bebidas/refrigerantes/limao_ice.jpg"
+          "imagem": "/imagem_refris.png"
         },
         {
           "id": 47,
@@ -383,7 +383,7 @@
           "descricao": "Refrigerante amargo com notas herbais",
           "ingredientes": ["Água gaseificada", "Açúcar", "Extratos botânicos"],
           "preparo": "Infusão de ervas e gaseificação",
-          "imagem": "/imagens/bebidas/refrigerantes/tonica_herbal.jpg"
+          "imagem": "/imagem_refris.png"
         },
         {
           "id": 48,
@@ -392,7 +392,7 @@
           "descricao": "100% suco de laranja, sem conservantes",
           "ingredientes": ["Laranja"],
           "preparo": "Extração a frio",
-          "imagem": "/imagens/bebidas/sucos/suco_laranja.jpg"
+          "imagem": "/imagem_sucos.png"
         },
         {
           "id": 49,
@@ -401,7 +401,7 @@
           "descricao": "Suco puro de uva sem adição de açúcar",
           "ingredientes": ["Uva roxa"],
           "preparo": "Prensagem e pasteurização",
-          "imagem": "/imagens/bebidas/sucos/suco_uva.jpg"
+          "imagem": "/imagem_sucos.png"
         },
         {
           "id": 50,
@@ -410,7 +410,7 @@
           "descricao": "Refrescante combinação tropical",
           "ingredientes": ["Abacaxi", "Hortelã", "Água"],
           "preparo": "Bater os ingredientes e coar",
-          "imagem": "/imagens/bebidas/sucos/suco_abacaxi_hortela.jpg"
+          "imagem": "/imagem_sucos.png"
         },
         {
           "id": 51,
@@ -419,7 +419,7 @@
           "descricao": "Suco saudável com couve, limão e maçã",
           "ingredientes": ["Couve", "Limão", "Maçã", "Gengibre", "Água"],
           "preparo": "Bater e coar",
-          "imagem": "/imagens/bebidas/sucos/suco_detox_verde.jpg"
+          "imagem": "/imagem_sucos.png"
         },
         {
           "id": 52,
@@ -428,7 +428,7 @@
           "descricao": "Sabor marcante e calmante",
           "ingredientes": ["Maracujá", "Água", "Açúcar"],
           "preparo": "Bater a polpa com água e adoçar",
-          "imagem": "/imagens/bebidas/sucos/suco_maracuja.jpg"
+          "imagem": "/imagem_sucos.png"
         }
             
 ]
