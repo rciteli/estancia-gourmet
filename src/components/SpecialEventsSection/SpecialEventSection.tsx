@@ -31,10 +31,10 @@ export default function SpecialEventsSection() {
           {/* Texto com overlay */}
           <div className="w-full md:w-1/2 h-full p-8 flex flex-col justify-center relative">
             <div>
-              <h2 className="text-4xl font-bold text-emerald-400 mb-6">
+              <h2 className="text-4xl font-bold text-emerald-400 mb-6 tilt">
                 EVENTOS DE CASAMENTO
               </h2>
-              <p className="text-gray-200 text-lg leading-relaxed">
+              <p className="text-gray-200 text-lg leading-relaxed walter">
                 Celebre o amor em grande estilo no Estância Gourmet! Nosso espaço aconchegante e 
                 nossa gastronomia requintada garantem o cuidado perfeito para casamentos inesquecíveis. 
                 Do buffet personalizado à decoração cuidadosa, cada detalhe é pensado para transformar 
@@ -59,10 +59,10 @@ export default function SpecialEventsSection() {
           {/* Texto com overlay */}
           <div className="w-full md:w-1/2 h-full p-8 flex flex-col justify-center relative">
             <div>
-              <h2 className="text-4xl font-bold text-emerald-400 mb-6">
+              <h2 className="text-4xl font-bold text-emerald-400 mb-6 tilt">
                 CARTA DE VINHOS
               </h2>
-              <p className="text-gray-200 text-lg leading-relaxed">
+              <p className="text-gray-200 text-lg leading-relaxed walter">
                 Nossa carta conta com uma seleção premium de vinhos, cuidadosamente assinada pelo 
                 nosso sommelier. Contamos com os melhores vinhos nacionais e internacionais que 
                 harmonizam perfeitamente com nossas criações gastronômicas!

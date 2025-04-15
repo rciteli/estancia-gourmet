@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function FeaturesSection() {
   return (
-    <section className="bg-emerald-500 py-16">
+    <section className="bg-emerald-500 py-16 tilt">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8">
         {/* Card Experiência Completa */}
         <div className="relative h-[500px]">

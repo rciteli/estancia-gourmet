@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { Prato } from '@/types/types';
+import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 
 export default function ListaEntradas() {
   const params = useParams<{ categoria: string }>();
@@ -38,7 +40,9 @@ export default function ListaEntradas() {
                            params.categoria.slice(1).toLowerCase();
 
   return (
-    <div className="container mx-auto p-4">
+    <div>
+      <Header />
+    <div className="container mx-auto p-4 manjari">
       <h1 className="text-3xl font-bold text-emerald-700 mb-8">
         {categoriaFormatada}
       </h1>
@@ -48,7 +52,7 @@ export default function ListaEntradas() {
           <Link 
             key={prato.id} 
             href={`/pratos/${params.categoria}/${prato.id}`}
-            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+            className="bg-gray-100 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
           >
             <img 
               src={prato.imagem} 
@@ -62,6 +66,8 @@ export default function ListaEntradas() {
           </Link>
         ))}
       </div>
+    </div>
+    <Footer />
     </div>
   );
 }

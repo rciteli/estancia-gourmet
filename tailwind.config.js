@@ -7,8 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lohit: ['"Lohit Tamil"', 'sans-serif'],
+        livvic: ['Livvic', 'serif'],
+        manjari: ['Manjari', 'sans-serif'],
+        strait: ['Strait', 'sans-serif'],
+        tilt: ['"Tilt Warp"', 'sans-serif'],
+        vollkorn: ['Vollkorn', 'serif'],
+        walter: ['"Walter Turncoat"', 'cursive'],
+      },
       colors: {
-        'emerald': {
+        emerald: {
           700: '#047857',
         }
       }

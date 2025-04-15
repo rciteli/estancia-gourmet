@@ -2,7 +2,6 @@
 import ChefCard from '@/components/ChefCard/ChefCard';
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
-import UnitsSection from '@/components/UnitsSection/UnitsSection';
 
 const chefs = [
     {
@@ -27,7 +26,7 @@ const chefs = [
 
 export default function ChefsPage() {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 lohit">
             <Header />
             <main className="container mx-auto px-4 py-12">
                 {/* Cabeçalho */}
@@ -51,7 +50,6 @@ export default function ChefsPage() {
                     ))}
                 </div>
             </main>
-            <UnitsSection />
             <Footer />
         </div>
     );

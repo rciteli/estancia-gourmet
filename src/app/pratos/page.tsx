@@ -1,5 +1,4 @@
 // app/pratos/page.tsx
-import UnitsSection from '@/components/UnitsSection/UnitsSection';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import CategoryCard from '@/components/CategoryCard/CategoryCard';
@@ -22,7 +21,7 @@ export default function PratosPage() {
         <Header />
         {/* Seção de Pratos */}
         <section className="container mx-auto px-4 py-12">
-          <h2 className="mb-8 text-4xl font-bold text-emerald-700">Categorias de Pratos</h2>
+          <h2 className="mb-8 text-4xl font-bold text-emerald-700 tilt">Categorias de Pratos</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {categoriasPratos.map((categoria) => (
               <CategoryCard
@@ -37,7 +36,7 @@ export default function PratosPage() {
   
         {/* Seção de Bebidas */}
         <section className="container mx-auto px-4 py-12">
-          <h2 className="mb-8 text-4xl font-bold text-emerald-700">Categorias de Bebidas</h2>
+          <h2 className="mb-8 text-4xl font-bold text-emerald-700 tilt">Categorias de Bebidas</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {categoriasBebidas.map((categoria) => (
               <CategoryCard
@@ -49,7 +48,6 @@ export default function PratosPage() {
             ))}
           </div>
         </section>
-        <UnitsSection />
         <Footer />
       </div>
     );

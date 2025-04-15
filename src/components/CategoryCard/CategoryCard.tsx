@@ -11,7 +11,7 @@ export default function CategoryCard({ title, image, href }: CategoryCardProps) 
   return (
     <Link href={href} className="group relative block h-96 w-full overflow-hidden rounded-4xl shadow-xl transition-transform duration-300 hover:scale-105">
       <div 
-        className="h-full w-full bg-cover bg-center"
+        className="h-full w-full bg-cover bg-center manjari"
         style={{ backgroundImage: `url(${image})` }}
       >
         <div className="absolute inset-0 bg-black/10 transition-colors duration-300 group-hover:bg-black/30">
