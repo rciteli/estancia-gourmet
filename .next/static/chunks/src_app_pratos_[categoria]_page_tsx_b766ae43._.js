@@ -1,0 +1,13 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "static/chunks/src_app_pratos_[categoria]_page_tsx_b766ae43._.js",
+    {},
+]);
+(globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
+  "path": "static/chunks/src_app_pratos_[categoria]_page_tsx_b766ae43._.js",
+  "chunks": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_528a41d4._.js",
+    "static/chunks/node_modules_next_4a344921._.js",
+    "static/chunks/src_8d3666a5._.js"
+  ],
+  "source": "dynamic"
+});
