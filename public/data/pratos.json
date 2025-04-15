@@ -5,13 +5,15 @@
         "nome": "Bruschetta Italiana",
         "descricao": "Pão italiano com tomate fresco e manjericão",
         "ingredientes": [
-            "Pão italiano",
-            "Tomate",
-            "Manjericão",
-            "Azeite"
+            "4 fatias de Pão italiano🥖",
+            "2 Tomates médios🍅",
+            "10 folhas de Manjericão🌿",
+            "2 colheres de sopa de Azeite de oliva🥄"
         ],
-        "preparo": "Assar o pão e adicionar os ingredientes",
-        "imagem": "/bruschetta_italiana.jpeg"
+        "preparo": [
+            " Corte o pão italiano em fatias e leve ao forno até que fiquem levemente crocantes. Enquanto isso, pique os tomates em cubos pequenos e rasgue as folhas de manjericão com as mãos. Regue as fatias de pão com azeite de oliva, cubra com os tomates e finalize com o manjericão. Sirva em seguida para aproveitar o sabor fresco dos ingredientes."
+        ],
+        "imagem": "/bruschetta_italiana.jpg"
     },
     {
         "id": 2,
@@ -19,13 +21,15 @@
         "nome": "Bruschetta Tropical",
         "descricao": "Pão ciabatta com abacate marinado, queijo coalho grelhado e geléia de pimenta",
         "ingredientes": [
-            "Pão ciabatta",
-            "Abacate",
-            "Queijo coalho",
-            "Geléia de pimenta",
-            "Azeite de dendê"
+            "2 fatias de Pão ciabatta🍞",
+            "1 Abacate maduro🥑",
+            "2 fatias grossas de Queijo coalho🧀",
+            "2 colheres de sopa de Geléia de pimenta🌶️",
+            "1 colher de chá de Azeite de dendê🛢️"
         ],
-        "preparo": "Torrar o pão, montar camadas de abacate e queijo, finalizar com geléia e azeite",
+        "preparo": [
+           "Toste as fatias de pão ciabatta até que fiquem levemente crocantes. Corte o abacate ao meio, retire a polpa e amasse levemente com um garfo. Grelhe o queijo coalho até dourar dos dois lados. Sobre o pão, faça uma camada de abacate, adicione o queijo coalho e finalize com geléia de pimenta e um fio de azeite de dendê. Sirva imediatamente."
+        ],
         "imagem": "/bruschetta_tropical.jpg"
     },
     {
@@ -34,27 +38,31 @@
         "nome": "Carpaccio de Filé",
         "descricao": "Finas fatias de filé com alcaparras",
         "ingredientes": [
-            "Filé mignon",
-            "Alcaparras",
-            "Azeite trufado"
+            "120g de Filé mignon cru cortado em fatias finas🥩",
+            "1 colher de sopa de Alcaparras🥒",
+            "1 fio de Azeite trufado🧴"
+          ],
+          "preparo": [
+            "Distribua as fatias de filé em um prato grande, formando uma camada uniforme. Salpique as alcaparras por cima e regue com azeite trufado. Sirva imediatamente."
         ],
-        "preparo": "Fatiar o filé e montar o prato",
-        "imagem": "/carpaccio_file.png"
+        "imagem": "/carpaccio_file.jpg"
     },
     {
         "id": 4,
         "categoria": "entradas",
         "nome": "Tartare de Salmão com Cupuaçu",
-        "descricinao": "Cubos de salmão marinados em leite de coco com espuma de cupuaçu",
+        "descricao": "Cubos de salmão marinados em leite de coco com espuma de cupuaçu",
         "ingredientes": [
-            "Salmão fresco",
-            "Leite de coco",
-            "Cupuaçu",
-            "Gengibre",
-            "Wasabi verd"
-        ],
-        "preparo": "Cortar o salmão em cubos, marinar por 15min e servir com espuma de cupuaçu",
-        "imagem": "/tartare_salmao.jpeg"
+            "150g de Salmão fresco em cubos🐟",
+            "3 colheres de sopa de Leite de coco🥥",
+            "2 colheres de sopa de Polpa de cupuaçu🍈",
+            "1 colher de chá de Gengibre ralado🫚",
+            "1 pitada de Wasabi verde🌶️"
+          ],
+          "preparo": [
+            "Corte o salmão em cubos pequenos e tempere com leite de coco, gengibre e wasabi. Deixe marinar por 15 minutos. Sirva em porções pequenas com espuma de cupuaçu por cima."
+          ],
+        "imagem": "/salmao.jpg"
     },
     {
         "id": 5,
@@ -62,14 +70,16 @@
         "nome": "Antipasto Della Nonna",
         "descricao": "Seleção italiana premium: presunto de Parma, burrata cremosa e tomates heirloom",
         "ingredientes": [
-            "Presunto Parma DOP",
-            "Burrata di Andria",
-            "Tomates variedade",
-            "Manjericão fresco",
-            "Azeite trufado"
-        ],
-        "preparo": "Dispor em táboa de madeira e regar com azeite trufado",
-        "imagem": "/antipasto.jpeg"
+            "4 fatias de Presunto Parma DOP🥓",
+            "1 unidade de Burrata di Andria🧀",
+            "3 Tomates heirloom variados🍅",
+            "6 folhas de Manjericão fresco🌿",
+            "1 fio de Azeite trufado🧴"
+          ],
+          "preparo": [
+            "Em uma tábua de madeira, disponha o presunto, a burrata ao centro e os tomates cortados ao redor. Decore com folhas de manjericão e finalize com azeite trufado por cima. Sirva como entrada."
+          ],
+        "imagem": "/antipasto.jpg"
     },
     {
         "id": 6,
@@ -77,14 +87,16 @@
         "nome": "Soupe à l'Oignon Gratinée",
         "descricao": "Clássico francês com cebolas caramelizadas e croûton de baguette artesanal",
         "ingredientes": [
-            "Cebolas roxas",
-            "Caldo de carne redução",
-            "Queijo Comté 24 meses",
-            "Conhaque",
-            "Pão rústico"
-        ],
-        "preparo": "Caramelizar cebolas por 2h, finalizar com queijo gratinado",
-        "imagem": "/soupe.jpeg"
+            "3 Cebolas roxas em fatias finas🧅",
+            "500ml de Caldo de carne reduzido🥣",
+            "60g de Queijo Comté 24 meses ralado🧀",
+            "1 dose de Conhaque🥃",
+            "2 fatias de Pão rústico🍞"
+          ],
+          "preparo": [
+            "Caramelize lentamente as cebolas por cerca de 2 horas até atingirem um tom dourado profundo. Adicione o conhaque e o caldo de carne. Sirva em ramequins, cubra com o pão e queijo, e leve ao forno para gratinar até dourar."
+          ],
+        "imagem": "/soupe.jpg"
     },
     {
         "id": 7,
@@ -92,27 +104,31 @@
         "nome": "Bolinho de Bacalhau Ouro Verde",
         "descricao": "Versão gourmet com bacalhau norueguês e espuma de ervas",
         "ingredientes": [
-            "Bacalhau desfiado",
-            "Batata Asterix",
-            "Salsa cristalizada",
-            "Creme de aipo",
-            "Flor de sal"
-        ],
-        "preparo": "Fritura em dupla temperatura com acabamento no forno",
+            "200g de Bacalhau desfiado🧂🐟",
+            "150g de Batata Asterix cozida e amassada🥔",
+            "1 colher de sopa de Salsa cristalizada🌿",
+            "2 colheres de sopa de Creme de aipo🥣",
+            "1 pitada de Flor de sal🧂"
+          ],
+          "preparo": [
+            "Misture o bacalhau com a batata, a salsa e o creme de aipo até formar uma massa homogênea. Modele os bolinhos e frite em óleo a 150°C por 3 minutos, depois finalize a fritura a 190°C por 1 minuto. Leve ao forno pré-aquecido a 200°C por 5 minutos para garantir crocância. Finalize com flor de sal antes de servir."
+          ],
         "imagem": "/bolinho.jpg"
     },
     {
         "id": 8,
         "categoria": "principais",
         "nome": "Risoto de Funghi",
-        "ingredientes": [
-            "Arroz arbóreo",
-            "Funghi secchi",
-            "Caldo de legumes",
-            "Queijo parmesão"
-        ],
         "descricao": "Risoto cremoso com cogumelos selvagens - Chef Henri",
-        "preparo": "Adicionar o Funghi ao risoto cremoso",
+        "ingredientes": [
+            "200g de Arroz arbóreo🍚",
+            "50g de Funghi secchi desidratado🍄",
+            "500ml de Caldo de legumes quente🥣",
+            "50g de Queijo parmesão ralado🧀"
+          ],
+          "preparo": [
+            "Reidrate o funghi secchi em água quente por 20 minutos e reserve. Em uma panela, adicione o arroz e o caldo de legumes aos poucos, mexendo sempre até o arroz ficar al dente. Quando o arroz estiver quase pronto, acrescente o funghi e finalize com o queijo parmesão, mexendo para incorporar."
+          ],
         "imagem": "/risotofunghi.jpeg"
     },
     {
@@ -121,13 +137,15 @@
         "nome": "Magret ao Tucupi de Champagne",
         "descricao": "Pato grelhado com redução amazônica e névoa cítrica",
         "ingredientes": [
-            "Peito de pato",
-            "Tucupi",
-            "Champagne",
-            "Jambu",
-            "Limão cravo"
-        ],
-        "preparo": "Searar o pato, reduzir tucupi com champagne e finalizar com névoa de limão",
+            "1 Peito de pato desossado🥩",
+            "100ml de Tucupi🍃",
+            "100ml de Champagne🍾",
+            "Folhas de Jambu🌿",
+            "1 Limão cravo🍋"
+          ],
+          "preparo": [
+            "Grelhe o peito de pato em uma frigideira até ficar dourado e crocante, selando ambos os lados. Em uma panela, reduza o tucupi com o champagne até obter uma consistência mais espessa. Finalize o prato com uma névoa de limão cravo, utilizando o suco e a casca do limão. Sirva com o pato e folhas de jambu por cima."
+          ],
         "imagem": "/magret.jpg"
     },
     {
@@ -136,13 +154,15 @@
         "nome": "Risoto Nero di Carnevale - Chef Mascarone",
         "descricao": "Risoto de tinta de lula com máscara de parmesão",
         "ingredientes": [
-            "Arroz carnaroli",
-            "Tinta de lula",
-            "Brie defumado",
-            "Vinho do Porto",
-            "Parmesão"
-        ],
-        "preparo": "Cozinhar risoto na tinta, cobrir com máscara de parmesão e finalizar com brie",
+            "200g de Arroz carnaroli🍚",
+            "50ml de Tinta de lula🦑",
+            "100g de Brie defumado🧀",
+            "50ml de Vinho do Porto🍷",
+            "50g de Parmesão ralado🧀"
+          ],
+          "preparo": [
+            "Prepare o risoto cozinhando o arroz carnaroli com vinho do Porto e a tinta de lula até que o arroz esteja al dente. Quando o risoto estiver pronto, cubra com uma camada generosa de parmesão, criando uma 'máscara'. Finalize com pedaços de brie defumado por cima e sirva imediatamente."
+          ],
         "imagem": "/risotto.jpeg"
     },
     {
@@ -151,13 +171,15 @@
         "nome": "Filé Mignon com Redução de Açaí",
         "descricao": "Corte nobre com molho de açaí e purê de banana-da-terra",
         "ingredientes": [
-            "Filé mignon",
-            "Açaí puro",
-            "Banana-da-terra",
-            "Vinho tinto",
-            "Especiarias"
-        ],
-        "preparo": "Grelhar a carne, reduzir açaí com vinho e servir com purê cremoso",
+            "200g de Filé mignon🥩",
+            "100g de Açaí puro🍇",
+            "2 Bananas-da-terra maduras🍌",
+            "100ml de Vinho tinto🍷",
+            "1 pitada de Especiarias (a gosto)🌿"
+          ],
+          "preparo": [
+            "Grelhe o filé mignon ao ponto desejado. Em uma panela, reduza o açaí com o vinho tinto e as especiarias até que o molho engrosse. Cozinhe a banana-da-terra até amolecer, depois faça um purê cremoso. Sirva o filé mignon com o molho de açaí por cima e o purê de banana ao lado."
+          ],
         "imagem": "/file_açai.jpg"
     },
     {
@@ -166,13 +188,15 @@
         "nome": "Pulmão de Leite - Chef Pablo",
         "descricao": "Pulmão bovino cozido lentamente no leite, temperado com alho, cebola e especiarias",
         "ingredientes": [
-            "Pulmão bovino limpo",
-            "1L de leite",
-            "2 folhas de louro",
-            "Sal a gosto",
-            "Pimenta-do-reino a gosto"
-        ],
-        "preparo": "Preparar espuma com ostras, criar névoa com algas e montar joia de manga",
+            "500g de Pulmão bovino limpo🐄",
+            "1L de Leite🥛",
+            "2 folhas de Louro🍃",
+            "Sal a gosto🧂",
+            "Pimenta-do-reino a gosto🌶️"
+          ],
+          "preparo": [
+            "Cozinhe o pulmão bovino lentamente no leite com as folhas de louro, sal e pimenta até que fique bem macio. Prepare uma espuma de ostras para complementar e crie uma névoa com algas. Para finalizar, monte uma 'joia' de manga como acompanhamento e sirva o prato com a espuma e névoa por cima."
+          ],
         "imagem": "/pulmao.jpg"
     },
     {
@@ -181,13 +205,15 @@
         "nome": "Ossobuco alla Milanese",
         "descricao": "Vitelo de leite com gremolata de limão siciliano e risoto de açafrão",
         "ingredientes": [
-            "Ossobuco de vitelo",
-            "Açafrão verdadeiro",
-            "Vinho Branco Gavi",
-            "Bouquet garni",
-            "Limão siciliano"
-        ],
-        "preparo": "Brasear por 4h e servir com risoto cremoso",
+            "4 pedaços de Ossobuco de vitelo🐄",
+            "1 colher de chá de Açafrão verdadeiro🌸",
+            "250ml de Vinho Branco Gavi🍷",
+            "1 Bouquet garni🌿",
+            "1 Limão siciliano🍋"
+          ],
+          "preparo": [
+            "Braseie o ossobuco em vinho branco e caldo por 4 horas até que a carne esteja bem macia. Prepare a gremolata com a casca ralada do limão siciliano. Sirva o ossobuco com um risoto cremoso de açafrão, finalizando com a gremolata por cima."
+          ],
         "imagem": "/ossobuco.jpg",
         "origem": "italiana"
     },
@@ -197,13 +223,15 @@
         "nome": "Boeuf Bourguignon Royale",
         "descricao": "Guisado de wagyu com vinho Pinot Noir e cogumelos silvestres",
         "ingredientes": [
-            "Wagyu A5",
-            "Pinot Noir Gevrey-Chambertin",
-            "Cêpes",
-            "Périgord truffle",
-            "Cebola pérola"
-        ],
-        "preparo": "Cozimento lento em cocotte por 6h",
+            "200g de Wagyu A5🥩",
+            "250ml de Pinot Noir Gevrey-Chambertin🍷",
+            "100g de Cêpes frescos🍄",
+            "10g de Périgord truffle (trufa preta)🍄",
+            "2 Cebolas pérola pequenas🧅"
+          ],
+          "preparo": [
+            "Coza o Wagyu A5 em uma cocotte com o vinho Pinot Noir e os cogumelos cêpes por 6 horas em fogo baixo. Finalize com lascas de trufa Périgord e cebolas pérola caramelizadas para um toque de sofisticação."
+          ],
         "imagem": "/boeuf.jpg"
     },
     {
@@ -212,28 +240,31 @@
         "nome": "Moqueca Imperial",
         "descricao": "Peixe nobre com dendê gold e leite de coco orgânico",
         "ingredientes": [
-            "Badejo real",
-            "Dendê premium",
-            "Leite de coco fresco",
-            "Pimenta biquinho",
-            "Coentro microverde"
-        ],
-        "preparo": "Cozimento em panela de barro com técnica de vapor selado",
+            "200g de Badejo real🐟",
+            "2 colheres de sopa de Dendê premium🫒",
+            "200ml de Leite de coco fresco🥥",
+            "10 Pimentas biquinho🌶️",
+            "Folhas de Coentro microverde🌱"
+          ],
+          "preparo": [
+            "Cozinhe o badejo em uma panela de barro com o dendê, leite de coco e pimenta biquinho. Utilize a técnica de vapor selado para garantir que o peixe fique suculento e absorva todos os sabores. Finalize com coentro microverde para um toque fresco e aromático."
+          ],
         "imagem": "/moqueca.jpg"
     },
     {
         "id": 27,
         "categoria": "sobremesas",
         "nome": "Tiramisu de Maracujá",
-        "descricao": "Clássico italiano tropicalizado com fruta paixão",
         "ingredientes": [
-            "Mascarpone",
-            "Maracujá",
-            "Biscoito champanhe",
-            "Café",
-            "Cacau"
-        ],
-        "preparo": "Montar camadas alternadas com creme de maracujá e biscoitos umedecidos",
+            "250g de Mascarpone 🧀",
+            "1 Maracujá 🥭",
+            "200g de Biscoito champanhe 🍪",
+            "100ml de Café forte ☕",
+            "Cacau em pó para polvilhar 🍫"
+          ],
+          "preparo": [
+            "Inicie preparando o creme de maracujá, misturando a polpa da fruta com o mascarpone. Em uma travessa, alterne camadas de biscoitos champanhe umedecidos no café e o creme de maracujá. Finalize com uma camada generosa de cacau em pó. Deixe na geladeira por algumas horas para firmar, e sirva bem gelado."
+          ],
         "imagem": "/tiramissu_maracuja.jpg"
     },
     {
@@ -242,13 +273,15 @@
         "nome": "Petit Gateau de Cupuaçu",
         "descricao": "Fondant de chocolate branco com coração de cupuaçu",
         "ingredientes": [
-            "Chocolate branco",
-            "Cupuaçu",
-            "Farinha de amêndoas",
-            "Ovo",
-            "Açúcar"
-        ],
-        "preparo": "Assar a 200°C por 12min e servir com sorvete de baunilha",
+            "200g de Chocolate branco 🍫",
+            "100g de Cupuaçu 🍃",
+            "100g de Farinha de amêndoas 🌰",
+            "2 Ovos 🥚",
+            "100g de Açúcar 🍬"
+          ],
+          "preparo": [
+            "Preaqueça o forno a 200°C. Prepare a massa misturando o chocolate branco derretido com o cupuaçu, farinha de amêndoas, ovos e açúcar até obter uma mistura homogênea. Despeje a massa em forminhas untadas e asse por 12 minutos. Sirva imediatamente com uma bola de sorvete de baunilha 🍦."
+          ],
         "imagem": "/petit_gateau.jpg"
     },
     {
@@ -257,13 +290,15 @@
         "nome": "Tiramisù al Segreto",
         "descricao": "Clássico com mascarpone de bufala e café Kopi Luwak",
         "ingredientes": [
-            "Ovos caipira",
-            "Mascarpone di bufala",
-            "Café Kopi Luwak",
-            "Cacau de São Tomé",
-            "Amaretto di Saronno"
-        ],
-        "preparo": "Montagem em camadas com 24h de repouso",
+            "4 Ovos caipira 🥚",
+            "250g de Mascarpone di bufala 🧀",
+            "100ml de Café Kopi Luwak ☕",
+            "Cacau de São Tomé 🍫",
+            "50ml de Amaretto di Saronno 🍶"
+          ],
+          "preparo": [
+            "Comece preparando o creme com o mascarpone di bufala e os ovos caipira, misturando bem até ficar cremoso. Em uma travessa, alterne camadas de biscoitos umedecidos no café Kopi Luwak e o creme de mascarpone. Finalize com uma camada de cacau de São Tomé por cima. Deixe descansar por 24 horas na geladeira para absorver todos os sabores. Finalize com um toque de Amaretto di Saronno antes de servir."
+          ],
         "imagem": "/tiramisu.jpg"
     },
     {
@@ -272,13 +307,15 @@
         "nome": "Tarte Tatin Royale",
         "descricao": "Maçãs reineta caramelizadas em manteiga Echiré",
         "ingredientes": [
-            "Maçã reineta",
-            "Manteiga Echiré AOP",
-            "Açúcar mascavo",
-            "Baunilha do Madagascar",
-            "Sorvete de creme"
-        ],
-        "preparo": "Caramelização perfeita em panela de cobre",
+            "4 Maçãs reineta 🍏",
+            "100g de Manteiga Echiré AOP 🧈",
+            "100g de Açúcar mascavo 🍬",
+            "1 fava de Baunilha do Madagascar 🍂",
+            "Sorvete de creme para servir 🍦"
+          ],
+          "preparo": [
+            "Comece derretendo a manteiga Echiré em uma panela de cobre, adicione o açúcar mascavo e cozinhe até caramelizar. Enquanto isso, descasque as maçãs reineta e corte em fatias. Adicione as maçãs ao caramelo e cozinhe até ficarem macias e douradas. Sirva imediatamente, acompanhada de uma bola de sorvete de creme."
+          ],
         "imagem": "/tarte_tartin.jpg"
     },
     {
@@ -287,148 +324,240 @@
         "nome": "Brigadeiro Ouro Preto",
         "descricao": "Esfera de chocolate 70% com flocos de ouro comestíveis",
         "ingredientes": [
-            "Chocolate Valrhona",
-            "Leite condensado orgânico",
-            "Manteiga de garrafa",
-            "Ouro 24k",
-            "Nibs de cacau"
-        ],
-        "preparo": "Cozimento em banho-maria e moldagem manual",
+            "200g de Chocolate Valrhona 🍫",
+            "1 lata de Leite condensado orgânico 🥛",
+            "30g de Manteiga de garrafa 🧈",
+            "Flocos de Ouro 24k ✨",
+            "20g de Nibs de cacau 🍫"
+          ],
+          "preparo": [
+            "Inicie derretendo o chocolate Valrhona com a manteiga de garrafa em banho-maria. Adicione o leite condensado e cozinhe até atingir o ponto de brigadeiro. Após o ponto de desgrudar da panela, retire do fogo e deixe esfriar um pouco. Modele pequenas esferas e passe os flocos de ouro 24k para decorar. Finalize com nibs de cacau para um toque crocante."
+          ],
         "imagem": "/brigadeiro_ouro.jpeg"
-    },{
+        },
+        {
           "id": 38,
           "categoria": "vinhos",
           "nome": "Vinho Tinto Cabernet",
           "descricao": "Vinho encorpado com notas de frutas vermelhas",
-          "ingredientes": ["Uvas Cabernet Sauvignon", "Fermento", "Carvalho"],
-          "preparo": "Fermentação em barris de carvalho",
-          "imagem": "/vinho_cabernet.jpg"
+          "ingredientes": [
+            "1000g de Uvas Cabernet Sauvignon 🍇",
+            "10g de Fermento 🍞",
+            "100g de Carvalho 🌳"
+          ],
+          "preparo": [
+            "As uvas Cabernet Sauvignon são colhidas e fermentadas com o fermento adequado. O vinho é então envelhecido em barris de carvalho, o que dá um toque único de madeira e complexidade ao sabor, enquanto as notas de frutas vermelhas são intensificadas durante o processo."
+          ],        
+          "imagem": "/vinho_carbenet.jpg"
         },
         {
           "id": 39,
           "categoria": "vinhos",
           "nome": "Vinho Branco Chardonnay",
           "descricao": "Leve e frutado, ideal para pratos leves",
-          "ingredientes": ["Uvas Chardonnay", "Fermento", "Madeira"],
-          "preparo": "Fermentação a baixa temperatura",
-          "imagem": "/imagens/bebidas/vinhos/vinho_branco_chardonnay.jpg"
+          "ingredientes": [
+            "1000g de Uvas Chardonnay 🍇",
+            "10g de Fermento 🍞",
+            "100g de Madeira 🍂"
+          ],
+          "preparo": [
+            "As uvas Chardonnay são colhidas e fermentadas com o fermento adequado a uma baixa temperatura, o que ajuda a preservar os sabores frutados e frescos. O vinho é então maturado para equilibrar sua acidez e suavidade, tornando-o ideal para acompanhar pratos leves."
+          ],
+          "imagem": "/vinho_branco.jpg"
         },
         {
           "id": 40,
           "categoria": "vinhos",
           "nome": "Rosé Provence",
           "descricao": "Vinho rosé seco, com aroma floral",
-          "ingredientes": ["Uvas Rosé", "Fermento"],
-          "preparo": "Fermentação curta, sem contato com cascas",
-          "imagem": "/imagens/bebidas/vinhos/rose_provence.jpg"
+          "ingredientes": [
+            "1000g de Uvas Rosé 🍇",
+            "10g de Fermento 🍞"
+          ],
+          "preparo": [
+            "As uvas Rosé são colhidas e fermentadas com o fermento adequado em um processo de fermentação curta, sem contato com as cascas, para preservar a delicadeza e as notas florais do vinho. Isso resulta em um vinho rosé seco e aromático, perfeito para momentos refrescantes."
+          ],
+          "imagem": "/provence.jpg"
         },
         {
           "id": 41,
           "categoria": "vinhos",
           "nome": "Espumante Brut",
           "descricao": "Refrescante e elegante, ideal para celebrações",
-          "ingredientes": ["Uvas brancas", "Fermento", "Gás natural"],
-          "preparo": "Método tradicional de espumantização",
-          "imagem": "/imagens/bebidas/vinhos/espumante_brut.jpg"
+          "ingredientes": [
+            "1000g de Uvas brancas 🍇",
+            "5g de Fermento 🍞",
+            "Gás natural 💨"
+          ],
+          "preparo": [
+            "O espumante é produzido pelo método tradicional de espumantização, onde a fermentação secundária ocorre nas garrafas, criando as borbulhas naturais. Esse processo confere ao espumante seu caráter refrescante e elegante, perfeito para brindar ocasiões especiais."
+          ],
+          "imagem": "/brut.jpg"
         },
         {
           "id": 42,
           "categoria": "vinhos",
           "nome": "Vinho do Porto",
           "descricao": "Doce e encorpado, perfeito para sobremesas",
-          "ingredientes": ["Uvas Portuguesas", "Aguardente vínica"],
-          "preparo": "Interrupção da fermentação com aguardente",
-          "imagem": "/imagens/bebidas/vinhos/vinho_do_porto.jpg"
+          "ingredientes": [
+            "1000g de Uvas Portuguesas 🍇",
+            "100ml de Aguardente vínica 🍷"
+          ],
+          "preparo": [
+            "Durante o processo de fermentação, a fermentação é interrompida pela adição de aguardente vínica, o que aumenta o teor alcoólico do vinho e preserva a doçura das uvas. Esse processo confere ao Vinho do Porto seu caráter doce e encorpado, tornando-o ideal para acompanhar sobremesas."
+          ],
+          "imagem": "/porto.jpg"
         },
         {
           "id": 43,
           "categoria": "refrigerantes",
           "nome": "Cola Clássica",
           "descricao": "Refrigerante de cola com sabor intenso",
-          "ingredientes": ["Água gaseificada", "Açúcar", "Cafeína", "Aromatizantes"],
-          "preparo": "Mistura e gaseificação",
-          "imagem": "/imagens/bebidas/refrigerantes/cola_classica.jpg"
+          "ingredientes": [
+            "1000ml de Água gaseificada 💧",
+            "200g de Açúcar 🍬",
+            "50mg de Cafeína ☕",
+            "Aromatizantes naturais 🍊"
+          ],
+          "preparo": [
+            "Misture os ingredientes e adicione a água gaseificada. A gaseificação é feita para dar o efeito efervescente característico. Após a mistura e a gaseificação, o refrigerante está pronto para ser servido com seu sabor intenso de cola."
+          ],
+          "imagem": "/coca.jpg"
         },
         {
           "id": 44,
           "categoria": "refrigerantes",
           "nome": "Guaraná Natural",
           "descricao": "Refrigerante brasileiro com extrato natural de guaraná",
-          "ingredientes": ["Água gaseificada", "Açúcar", "Extrato de guaraná"],
-          "preparo": "Mistura com extrato natural",
-          "imagem": "/imagens/bebidas/refrigerantes/guarana_natural.jpg"
+          "ingredientes": [
+            "1000ml de Água gaseificada 💧",
+            "200g de Açúcar 🍬",
+            "30g de Extrato de guaraná 🌱"
+          ],
+          "preparo": [
+            "Misture o açúcar e o extrato de guaraná à água gaseificada. Após a mistura, o refrigerante estará pronto para ser servido, com o sabor refrescante e energético do guaraná natural."
+          ],
+          "imagem": "/guarana.jpg"
         },
         {
           "id": 45,
           "categoria": "refrigerantes",
           "nome": "Laranja Citrus",
           "descricao": "Refrigerante de laranja com sabor cítrico",
-          "ingredientes": ["Água gaseificada", "Açúcar", "Suco de laranja", "Aromas"],
-          "preparo": "Mistura e adição de gás",
-          "imagem": "/imagens/bebidas/refrigerantes/laranja_citrus.jpg"
+          "ingredientes": [
+            "1000ml de Água gaseificada 💧",
+            "200g de Açúcar 🍬",
+            "150ml de Suco de laranja 🍊",
+            "Aromas naturais 🍋"
+          ],
+          "preparo": [
+            "Misture o açúcar e o suco de laranja à água gaseificada. Adicione os aromas naturais para intensificar o sabor cítrico. Após a mistura, adicione o gás para dar o efeito efervescente característico e o refrigerante estará pronto para ser servido."
+          ],
+          "imagem": "/citrus.jpg"
         },
         {
           "id": 46,
           "categoria": "refrigerantes",
           "nome": "Limão Ice",
           "descricao": "Refrigerante de limão com toque refrescante",
-          "ingredientes": ["Água gaseificada", "Açúcar", "Suco de limão", "Aromas"],
-          "preparo": "Mistura fria com carbonatação",
-          "imagem": "/imagens/bebidas/refrigerantes/limao_ice.jpg"
+          "ingredientes": [
+            "1000ml de Água gaseificada 💧",
+            "200g de Açúcar 🍬",
+            "100ml de Suco de limão 🍋",
+            "Aromas naturais 🍃"
+          ],
+          "preparo": [
+            "Misture o açúcar e o suco de limão à água gaseificada em uma mistura fria. Adicione os aromas naturais para realçar o sabor refrescante. Após a mistura, adicione a carbonatação para criar o efeito efervescente e o refrigerante estará pronto para ser servido."
+          ],
+          "imagem": "/limao.jpg"
         },
         {
           "id": 47,
           "categoria": "refrigerantes",
           "nome": "Tônica Herbal",
           "descricao": "Refrigerante amargo com notas herbais",
-          "ingredientes": ["Água gaseificada", "Açúcar", "Extratos botânicos"],
-          "preparo": "Infusão de ervas e gaseificação",
-          "imagem": "/imagens/bebidas/refrigerantes/tonica_herbal.jpg"
+          "ingredientes": [
+            "1000ml de Água gaseificada 💧",
+            "200g de Açúcar 🍬",
+            "30g de Extratos botânicos 🌿"
+          ],
+          "preparo": [
+            "Prepare uma infusão com os extratos botânicos e misture com o açúcar. Após a infusão, adicione à água gaseificada para criar a tônica com o sabor amargo e as notas herbais. Depois de gaseificada, o refrigerante estará pronto para ser servido."
+          ],
+          "imagem": "/tonica.jpg"
         },
         {
           "id": 48,
           "categoria": "sucos",
           "nome": "Suco de Laranja Natural",
           "descricao": "100% suco de laranja, sem conservantes",
-          "ingredientes": ["Laranja"],
-          "preparo": "Extração a frio",
-          "imagem": "/imagens/bebidas/sucos/suco_laranja.jpg"
+          "ingredientes": [
+            "5 Laranjas 🍊"
+          ],
+          "preparo": [
+            "Extraia o suco das laranjas a frio, sem aquecer, para preservar os nutrientes e o sabor fresco da fruta. Sirva imediatamente após a extração."
+          ],
+          "imagem": "/laranja.jpg"
         },
         {
           "id": 49,
           "categoria": "sucos",
           "nome": "Suco de Uva Integral",
           "descricao": "Suco puro de uva sem adição de açúcar",
-          "ingredientes": ["Uva roxa"],
-          "preparo": "Prensagem e pasteurização",
-          "imagem": "/imagens/bebidas/sucos/suco_uva.jpg"
+          "ingredientes": [
+            "1000g de Uva roxa 🍇"
+          ],
+          "preparo": [
+            "Realize a prensagem das uvas roxas para extrair o suco, seguido de um processo de pasteurização para garantir a conservação e evitar a adição de açúcar. O suco está pronto para ser servido, mantendo seu sabor natural."
+          ],
+          "imagem": "/uva.jpeg"
         },
         {
           "id": 50,
           "categoria": "sucos",
           "nome": "Suco de Abacaxi com Hortelã",
           "descricao": "Refrescante combinação tropical",
-          "ingredientes": ["Abacaxi", "Hortelã", "Água"],
-          "preparo": "Bater os ingredientes e coar",
-          "imagem": "/imagens/bebidas/sucos/suco_abacaxi_hortela.jpg"
+          "ingredientes": [
+            "500g de Abacaxi 🍍",
+            "10 folhas de Hortelã 🌿",
+            "500ml de Água 💧"
+          ],
+          "preparo": [
+            "Bata o abacaxi com as folhas de hortelã e a água no liquidificador. Após bater bem, coe a mistura para retirar o excesso de fibras. Sirva bem gelado para um toque ainda mais refrescante."
+          ],
+          "imagem": "/abacaxi.jpg"
         },
         {
           "id": 51,
           "categoria": "sucos",
           "nome": "Suco Detox Verde",
           "descricao": "Suco saudável com couve, limão e maçã",
-          "ingredientes": ["Couve", "Limão", "Maçã", "Gengibre", "Água"],
-          "preparo": "Bater e coar",
-          "imagem": "/imagens/bebidas/sucos/suco_detox_verde.jpg"
+          "ingredientes": [
+            "3 folhas de Couve 🌿",
+            "1 Limão 🍋",
+            "1 Maçã 🍏",
+            "10g de Gengibre 🌱",
+            "500ml de Água 💧"
+          ],
+          "preparo": [
+            "Bata todos os ingredientes no liquidificador com a água até obter uma mistura homogênea. Coe para remover as fibras e sirva gelado para um toque refrescante e detox."
+          ],
+          "imagem": "/detox.jpg"
         },
         {
           "id": 52,
           "categoria": "sucos",
           "nome": "Suco de Maracujá",
           "descricao": "Sabor marcante e calmante",
-          "ingredientes": ["Maracujá", "Água", "Açúcar"],
-          "preparo": "Bater a polpa com água e adoçar",
-          "imagem": "/imagens/bebidas/sucos/suco_maracuja.jpg"
+          "ingredientes": [
+            "2 Maracujás 🥭",
+            "500mls de Água 💧",
+            "100g de Açúcar 🍬"
+          ],
+          "preparo": [
+            "Bata a polpa dos maracujás com a água no liquidificador. Após obter uma mistura homogênea, adoce com açúcar a gosto. Coe para retirar as sementes e sirva gelado para aproveitar todo o sabor refrescante."
+          ],
+          "imagem": "/maracuja.jpg"
         }
             
 ]
