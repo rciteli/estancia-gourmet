@@ -8,16 +8,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Lohit: ['"Lohit Tamil"', 'sans-serif'],
-        Livvic: ['"Livvic"', 'serif'],
-        Manjari: ['"Manjari"', 'serif'],
-        Strait: ['"Strait"', 'serif'],
-        Tilt: ['"Tilt Warp"', 'serif'],
-        Vollkorn: ['"Vollkorn"', 'serif'],
-        Walter: ['"Walter Turncoat"', 'serif'],
+        lohit: ['"Lohit Tamil"', 'sans-serif'],
+        livvic: ['Livvic', 'serif'],
+        manjari: ['Manjari', 'sans-serif'],
+        strait: ['Strait', 'sans-serif'],
+        tilt: ['"Tilt Warp"', 'sans-serif'],
+        vollkorn: ['Vollkorn', 'serif'],
+        walter: ['"Walter Turncoat"', 'cursive'],
       },
       colors: {
-        'emerald': {
+        emerald: {
           700: '#047857',
         }
       }
