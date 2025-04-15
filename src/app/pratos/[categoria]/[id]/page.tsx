@@ -33,7 +33,7 @@ export default function DetalhePrato() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-10 px-4">
+    <div className="min-h-screen bg-gray-50 py-10 px-4 manjari">
       <div className="max-w-3xl h-screen mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
         <img
           src={prato.imagem}

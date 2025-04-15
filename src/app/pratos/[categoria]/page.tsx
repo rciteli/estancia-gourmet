@@ -38,7 +38,7 @@ export default function ListaEntradas() {
                            params.categoria.slice(1).toLowerCase();
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 manjari">
       <h1 className="text-3xl font-bold text-emerald-700 mb-8">
         {categoriaFormatada}
       </h1>

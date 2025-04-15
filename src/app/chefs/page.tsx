@@ -27,7 +27,7 @@ const chefs = [
 
 export default function ChefsPage() {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 lohit">
             <Header />
             <main className="container mx-auto px-4 py-12">
                 {/* Cabeçalho */}
