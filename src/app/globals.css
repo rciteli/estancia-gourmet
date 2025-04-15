@@ -28,44 +28,43 @@
 
 @font-face {
   font-family: 'Livvic';
-  src: url('/public/fonts/Livvic-Regular.ttf') format('opentype');
+  src: url('/public/fonts/Livvic-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Manjari';
-  src: url('/public/fonts/Manjari-Regular.ttf') format('opentype');
+  src: url('/public/fonts/Manjari-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Strait';
-  src: url('/public/fonts/Strait-Regular.ttf') format('opentype');
+  src: url('/public/fonts/Strait-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Tilt Warp';
-  src: url('/public/fonts/Tilt-Warp.ttf') format('opentype');
+  src: url('/public/fonts/Tilt-Warp.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Vollkorn';
-  src: url('/public/fonts/Vollkorn-Regular.ttf') format('opentype');
+  src: url('/public/fonts/Vollkorn-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Walter Turncoat';
-  src: url('/public/fonts/WalterTurncoat-Regular.ttf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('/public/fonts/WalterTurncoat-Regular.ttf') format('truetype');
+
 }
 
 body {
