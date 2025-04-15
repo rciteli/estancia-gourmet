@@ -1,4 +1,3 @@
-// types.ts
 export interface Prato {
   id: number;
   categoria: string;

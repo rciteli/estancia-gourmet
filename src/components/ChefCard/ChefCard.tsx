@@ -1,4 +1,3 @@
-// components/ChefCard.tsx
 import Image from 'next/image';
 
 interface ChefCardProps {

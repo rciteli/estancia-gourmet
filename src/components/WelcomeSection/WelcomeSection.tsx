@@ -1,4 +1,3 @@
-// components/WelcomeSection.tsx
 export default function WelcomeSection() {
   return (
     <section className="bg-white py-16">

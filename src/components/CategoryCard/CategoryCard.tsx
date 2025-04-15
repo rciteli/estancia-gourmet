@@ -1,4 +1,4 @@
-// components/CategoryCard.tsx
+
 import Link from 'next/link';
 
 interface CategoryCardProps {
