@@ -1,9 +1,9 @@
 // app/page.tsx
-import Header from '@/components/Header/Header';
-import WelcomeSection from '@/components/WelcomeSection/WelcomeSection';
-import FeaturesSection from '@/components/FeaturesSection/FeaturesSection';
-import Footer from '@/components/Footer/Footer';
-import SpecialEventsSection from '@/components/SpecialEventsSection/SpecialEventSection';
+import Header from '../components/Header/Header';
+import WelcomeSection from '../components/WelcomeSection/WelcomeSection';
+import FeaturesSection from '../components/FeaturesSection/FeaturesSection';
+import Footer from '../components/Footer/Footer';
+import SpecialEventsSection from '../components/SpecialEventsSection/SpecialEventSection';
 
 export default function Home() {
   return (

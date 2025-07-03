@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import BackToTopButton from "@/components/BackToTopButton/BackToTopButton";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 
 export const metadata: Metadata = {
   title: "Estância Gourmet",

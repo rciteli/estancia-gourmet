@@ -1,7 +1,7 @@
 // app/chefs/page.tsx
-import ChefCard from '@/components/ChefCard/ChefCard';
-import Footer from '@/components/Footer/Footer';
-import Header from '@/components/Header/Header';
+import ChefCard from '../../components/ChefCard/ChefCard';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 
 const chefs = [
     {

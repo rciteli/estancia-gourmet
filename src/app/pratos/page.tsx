@@ -1,7 +1,7 @@
 // app/pratos/page.tsx
-import Header from '@/components/Header/Header';
-import Footer from '@/components/Footer/Footer';
-import CategoryCard from '@/components/CategoryCard/CategoryCard';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import CategoryCard from '../../components/CategoryCard/CategoryCard';
 
 export default function PratosPage() {
     const categoriasPratos = [
