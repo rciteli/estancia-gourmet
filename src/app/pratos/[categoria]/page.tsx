@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { Prato } from '@/types/types';
 import Header from '@/components/Header/Header';
-import Footer from '@/components/Footer/Footer';
+import Footer from '@/components/Footer/page';
 import BackButton from '@/components/BackButton/BackButton';
 
 export default function ListaEntradas() {
